@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: mcp-kotlin-sample
+  ai:
+    mcp:
+      server:
+        name: mcp-kotlin-sample
+        version: 1.0.0
+        protocol: STREAMABLE
+
+server:
+  port: 8080
