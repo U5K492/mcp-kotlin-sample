@@ -1,6 +1,9 @@
 spring:
   application:
     name: mcp-kotlin-sample
+  threads:
+    virtual:
+      enabled: true
   ai:
     mcp:
       server:
